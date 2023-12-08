@@ -1,0 +1,833 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		211C73AD2B230093008EECE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C73AC2B230093008EECE6 /* AppDelegate.swift */; };
+		211C73B12B230093008EECE6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 211C73AF2B230093008EECE6 /* Main.html */; };
+		211C73B32B230093008EECE6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 211C73B22B230093008EECE6 /* Icon.png */; };
+		211C73B52B230093008EECE6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 211C73B42B230093008EECE6 /* Style.css */; };
+		211C73B72B230093008EECE6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 211C73B62B230093008EECE6 /* Script.js */; };
+		211C73B92B230093008EECE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C73B82B230093008EECE6 /* ViewController.swift */; };
+		211C73BC2B230093008EECE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211C73BA2B230093008EECE6 /* Main.storyboard */; };
+		211C73BE2B230093008EECE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211C73BD2B230093008EECE6 /* Assets.xcassets */; };
+		211C73CA2B230093008EECE6 /* browser_gptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C73C92B230093008EECE6 /* browser_gptTests.swift */; };
+		211C73D42B230094008EECE6 /* browser_gptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C73D32B230094008EECE6 /* browser_gptUITests.swift */; };
+		211C73D62B230094008EECE6 /* browser_gptUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C73D52B230094008EECE6 /* browser_gptUITestsLaunchTests.swift */; };
+		211C73DC2B230094008EECE6 /* browser-gpt Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 211C73DB2B230094008EECE6 /* browser-gpt Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		211C73E12B230094008EECE6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C73E02B230094008EECE6 /* SafariWebExtensionHandler.swift */; };
+		211C73E42B230094008EECE6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 211C73E32B230094008EECE6 /* _locales */; };
+		211C73E62B230094008EECE6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 211C73E52B230094008EECE6 /* images */; };
+		211C73E82B230094008EECE6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 211C73E72B230094008EECE6 /* manifest.json */; };
+		211C73EA2B230094008EECE6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 211C73E92B230094008EECE6 /* background.js */; };
+		211C73EC2B230094008EECE6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 211C73EB2B230094008EECE6 /* content.js */; };
+		211C73EE2B230094008EECE6 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 211C73ED2B230094008EECE6 /* popup.html */; };
+		211C73F02B230094008EECE6 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 211C73EF2B230094008EECE6 /* popup.css */; };
+		211C73F22B230094008EECE6 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 211C73F12B230094008EECE6 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		211C73C62B230093008EECE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211C73A12B230093008EECE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211C73A82B230093008EECE6;
+			remoteInfo = "browser-gpt";
+		};
+		211C73D02B230094008EECE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211C73A12B230093008EECE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211C73A82B230093008EECE6;
+			remoteInfo = "browser-gpt";
+		};
+		211C73DD2B230094008EECE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 211C73A12B230093008EECE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 211C73DA2B230094008EECE6;
+			remoteInfo = "browser-gpt Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		211C73FA2B230094008EECE6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				211C73DC2B230094008EECE6 /* browser-gpt Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		211C73A92B230093008EECE6 /* browser-gpt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "browser-gpt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C73AC2B230093008EECE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		211C73B02B230093008EECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		211C73B22B230093008EECE6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		211C73B42B230093008EECE6 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		211C73B62B230093008EECE6 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		211C73B82B230093008EECE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		211C73BB2B230093008EECE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		211C73BD2B230093008EECE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		211C73BF2B230093008EECE6 /* browser_gpt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = browser_gpt.entitlements; sourceTree = "<group>"; };
+		211C73C02B230093008EECE6 /* browser-gpt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "browser-gpt.entitlements"; sourceTree = "<group>"; };
+		211C73C52B230093008EECE6 /* browser-gptTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "browser-gptTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C73C92B230093008EECE6 /* browser_gptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = browser_gptTests.swift; sourceTree = "<group>"; };
+		211C73CF2B230094008EECE6 /* browser-gptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "browser-gptUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C73D32B230094008EECE6 /* browser_gptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = browser_gptUITests.swift; sourceTree = "<group>"; };
+		211C73D52B230094008EECE6 /* browser_gptUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = browser_gptUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		211C73DB2B230094008EECE6 /* browser-gpt Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "browser-gpt Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		211C73E02B230094008EECE6 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		211C73E32B230094008EECE6 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		211C73E52B230094008EECE6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		211C73E72B230094008EECE6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		211C73E92B230094008EECE6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		211C73EB2B230094008EECE6 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		211C73ED2B230094008EECE6 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		211C73EF2B230094008EECE6 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		211C73F12B230094008EECE6 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		211C73F32B230094008EECE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		211C73F42B230094008EECE6 /* browser_gpt_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = browser_gpt_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		211C73A62B230093008EECE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73C22B230093008EECE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73CC2B230094008EECE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73D82B230094008EECE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		211C73A02B230093008EECE6 = {
+			isa = PBXGroup;
+			children = (
+				211C73AB2B230093008EECE6 /* browser-gpt */,
+				211C73C82B230093008EECE6 /* browser-gptTests */,
+				211C73D22B230094008EECE6 /* browser-gptUITests */,
+				211C73DF2B230094008EECE6 /* browser-gpt Extension */,
+				211C73AA2B230093008EECE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		211C73AA2B230093008EECE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				211C73A92B230093008EECE6 /* browser-gpt.app */,
+				211C73C52B230093008EECE6 /* browser-gptTests.xctest */,
+				211C73CF2B230094008EECE6 /* browser-gptUITests.xctest */,
+				211C73DB2B230094008EECE6 /* browser-gpt Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		211C73AB2B230093008EECE6 /* browser-gpt */ = {
+			isa = PBXGroup;
+			children = (
+				211C73AC2B230093008EECE6 /* AppDelegate.swift */,
+				211C73B82B230093008EECE6 /* ViewController.swift */,
+				211C73BA2B230093008EECE6 /* Main.storyboard */,
+				211C73BD2B230093008EECE6 /* Assets.xcassets */,
+				211C73BF2B230093008EECE6 /* browser_gpt.entitlements */,
+				211C73C02B230093008EECE6 /* browser-gpt.entitlements */,
+				211C73AE2B230093008EECE6 /* Resources */,
+			);
+			path = "browser-gpt";
+			sourceTree = "<group>";
+		};
+		211C73AE2B230093008EECE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				211C73AF2B230093008EECE6 /* Main.html */,
+				211C73B22B230093008EECE6 /* Icon.png */,
+				211C73B42B230093008EECE6 /* Style.css */,
+				211C73B62B230093008EECE6 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		211C73C82B230093008EECE6 /* browser-gptTests */ = {
+			isa = PBXGroup;
+			children = (
+				211C73C92B230093008EECE6 /* browser_gptTests.swift */,
+			);
+			path = "browser-gptTests";
+			sourceTree = "<group>";
+		};
+		211C73D22B230094008EECE6 /* browser-gptUITests */ = {
+			isa = PBXGroup;
+			children = (
+				211C73D32B230094008EECE6 /* browser_gptUITests.swift */,
+				211C73D52B230094008EECE6 /* browser_gptUITestsLaunchTests.swift */,
+			);
+			path = "browser-gptUITests";
+			sourceTree = "<group>";
+		};
+		211C73DF2B230094008EECE6 /* browser-gpt Extension */ = {
+			isa = PBXGroup;
+			children = (
+				211C73E02B230094008EECE6 /* SafariWebExtensionHandler.swift */,
+				211C73F32B230094008EECE6 /* Info.plist */,
+				211C73F42B230094008EECE6 /* browser_gpt_Extension.entitlements */,
+				211C73E22B230094008EECE6 /* Resources */,
+			);
+			path = "browser-gpt Extension";
+			sourceTree = "<group>";
+		};
+		211C73E22B230094008EECE6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				211C73E32B230094008EECE6 /* _locales */,
+				211C73E52B230094008EECE6 /* images */,
+				211C73E72B230094008EECE6 /* manifest.json */,
+				211C73E92B230094008EECE6 /* background.js */,
+				211C73EB2B230094008EECE6 /* content.js */,
+				211C73ED2B230094008EECE6 /* popup.html */,
+				211C73EF2B230094008EECE6 /* popup.css */,
+				211C73F12B230094008EECE6 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		211C73A82B230093008EECE6 /* browser-gpt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211C73FB2B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gpt" */;
+			buildPhases = (
+				211C73A52B230093008EECE6 /* Sources */,
+				211C73A62B230093008EECE6 /* Frameworks */,
+				211C73A72B230093008EECE6 /* Resources */,
+				211C73FA2B230094008EECE6 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211C73DE2B230094008EECE6 /* PBXTargetDependency */,
+			);
+			name = "browser-gpt";
+			productName = "browser-gpt";
+			productReference = 211C73A92B230093008EECE6 /* browser-gpt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		211C73C42B230093008EECE6 /* browser-gptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211C73FE2B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gptTests" */;
+			buildPhases = (
+				211C73C12B230093008EECE6 /* Sources */,
+				211C73C22B230093008EECE6 /* Frameworks */,
+				211C73C32B230093008EECE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211C73C72B230093008EECE6 /* PBXTargetDependency */,
+			);
+			name = "browser-gptTests";
+			productName = "browser-gptTests";
+			productReference = 211C73C52B230093008EECE6 /* browser-gptTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		211C73CE2B230094008EECE6 /* browser-gptUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211C74012B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gptUITests" */;
+			buildPhases = (
+				211C73CB2B230094008EECE6 /* Sources */,
+				211C73CC2B230094008EECE6 /* Frameworks */,
+				211C73CD2B230094008EECE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				211C73D12B230094008EECE6 /* PBXTargetDependency */,
+			);
+			name = "browser-gptUITests";
+			productName = "browser-gptUITests";
+			productReference = 211C73CF2B230094008EECE6 /* browser-gptUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		211C73DA2B230094008EECE6 /* browser-gpt Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 211C73F72B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gpt Extension" */;
+			buildPhases = (
+				211C73D72B230094008EECE6 /* Sources */,
+				211C73D82B230094008EECE6 /* Frameworks */,
+				211C73D92B230094008EECE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "browser-gpt Extension";
+			productName = "browser-gpt Extension";
+			productReference = 211C73DB2B230094008EECE6 /* browser-gpt Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		211C73A12B230093008EECE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					211C73A82B230093008EECE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					211C73C42B230093008EECE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 211C73A82B230093008EECE6;
+					};
+					211C73CE2B230094008EECE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 211C73A82B230093008EECE6;
+					};
+					211C73DA2B230094008EECE6 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 211C73A42B230093008EECE6 /* Build configuration list for PBXProject "browser-gpt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 211C73A02B230093008EECE6;
+			productRefGroup = 211C73AA2B230093008EECE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				211C73A82B230093008EECE6 /* browser-gpt */,
+				211C73C42B230093008EECE6 /* browser-gptTests */,
+				211C73CE2B230094008EECE6 /* browser-gptUITests */,
+				211C73DA2B230094008EECE6 /* browser-gpt Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		211C73A72B230093008EECE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C73B32B230093008EECE6 /* Icon.png in Resources */,
+				211C73BC2B230093008EECE6 /* Main.storyboard in Resources */,
+				211C73B72B230093008EECE6 /* Script.js in Resources */,
+				211C73B12B230093008EECE6 /* Main.html in Resources */,
+				211C73BE2B230093008EECE6 /* Assets.xcassets in Resources */,
+				211C73B52B230093008EECE6 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73C32B230093008EECE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73CD2B230094008EECE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73D92B230094008EECE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C73EA2B230094008EECE6 /* background.js in Resources */,
+				211C73F02B230094008EECE6 /* popup.css in Resources */,
+				211C73EE2B230094008EECE6 /* popup.html in Resources */,
+				211C73E62B230094008EECE6 /* images in Resources */,
+				211C73E82B230094008EECE6 /* manifest.json in Resources */,
+				211C73E42B230094008EECE6 /* _locales in Resources */,
+				211C73EC2B230094008EECE6 /* content.js in Resources */,
+				211C73F22B230094008EECE6 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		211C73A52B230093008EECE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C73B92B230093008EECE6 /* ViewController.swift in Sources */,
+				211C73AD2B230093008EECE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73C12B230093008EECE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C73CA2B230093008EECE6 /* browser_gptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73CB2B230094008EECE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C73D42B230094008EECE6 /* browser_gptUITests.swift in Sources */,
+				211C73D62B230094008EECE6 /* browser_gptUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		211C73D72B230094008EECE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211C73E12B230094008EECE6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		211C73C72B230093008EECE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211C73A82B230093008EECE6 /* browser-gpt */;
+			targetProxy = 211C73C62B230093008EECE6 /* PBXContainerItemProxy */;
+		};
+		211C73D12B230094008EECE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211C73A82B230093008EECE6 /* browser-gpt */;
+			targetProxy = 211C73D02B230094008EECE6 /* PBXContainerItemProxy */;
+		};
+		211C73DE2B230094008EECE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 211C73DA2B230094008EECE6 /* browser-gpt Extension */;
+			targetProxy = 211C73DD2B230094008EECE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		211C73AF2B230093008EECE6 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211C73B02B230093008EECE6 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		211C73BA2B230093008EECE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				211C73BB2B230093008EECE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		211C73F52B230094008EECE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		211C73F62B230094008EECE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		211C73F82B230094008EECE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "browser-gpt Extension/browser_gpt_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "browser-gpt Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "browser-gpt Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gpt.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		211C73F92B230094008EECE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "browser-gpt Extension/browser_gpt_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "browser-gpt Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "browser-gpt Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gpt.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		211C73FC2B230094008EECE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "browser-gpt/browser-gpt.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "browser-gpt";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gpt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		211C73FD2B230094008EECE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "browser-gpt/browser-gpt.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "browser-gpt";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gpt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		211C73FF2B230094008EECE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/browser-gpt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/browser-gpt";
+			};
+			name = Debug;
+		};
+		211C74002B230094008EECE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/browser-gpt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/browser-gpt";
+			};
+			name = Release;
+		};
+		211C74022B230094008EECE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "browser-gpt";
+			};
+			name = Debug;
+		};
+		211C74032B230094008EECE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jadeallencook.browser-gptUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "browser-gpt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		211C73A42B230093008EECE6 /* Build configuration list for PBXProject "browser-gpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C73F52B230094008EECE6 /* Debug */,
+				211C73F62B230094008EECE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211C73F72B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gpt Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C73F82B230094008EECE6 /* Debug */,
+				211C73F92B230094008EECE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211C73FB2B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gpt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C73FC2B230094008EECE6 /* Debug */,
+				211C73FD2B230094008EECE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211C73FE2B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C73FF2B230094008EECE6 /* Debug */,
+				211C74002B230094008EECE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		211C74012B230094008EECE6 /* Build configuration list for PBXNativeTarget "browser-gptUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				211C74022B230094008EECE6 /* Debug */,
+				211C74032B230094008EECE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 211C73A12B230093008EECE6 /* Project object */;
+}
