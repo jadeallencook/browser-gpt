@@ -22,12 +22,33 @@ footer {
     /* Dark Mode styles go here. */
 }
 
-input {
+input,
+button {
     display: block;
     width: 150px;
     margin: 5px auto;
+    border: none;
+    padding: 5px;
 }
 
 input#key {
     background: white;
+    color: black;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    background: rgb(11, 67, 98);
+    color: white;
+    cursor: pointer;
+}
+
+button#test {
+    background: rgb(98, 98, 11);
+    color: white;
+    cursor: pointer;
+}
+
+p#results {
+    display: none;
 }
